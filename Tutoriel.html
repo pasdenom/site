@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Site Web</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html" id="logo">Mes productions</h1>
+
+					<nav id="nav">
+							<ul>
+								<li><a href="index.html">Accueil</a></li>
+								<li class="current"><a href="Tutoriel.html">Tutoriel</a></li>
+								<li><a href="Carte.html">Carte</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+								<div id="content">
+
+									<!-- Content -->
+
+										<article>
+											<header>
+												<h2>Bienvenue dans le tutoriel</h2>
+												<p>Viens en apprendre plus...</p>
+											</header>
+
+											<p>Tout d’abord il vous devez choisir un set de donnée, pour se faire je vous propose d’aller sur le site : https://www.data.gouv.fr/fr/ , pour ma part j’ai choisi une liste des coordonnées GPS des monuments nationaux : https://www.data.gouv.fr/fr/datasets/liste-des-coordonnees-gps-des-monuments-nationaux/
+Petite astuce, évitez des formats trop lourd car cela risque d’être compliqué pour OpenRefine. 
+</p>
+
+											<span class="image featured"><img src="images/banner.jpg" height="50" width="50"alt="" /></span>
+
+											<h3>Commencement</h3>
+											<p>Pensez à sélectionner le fichier au format CSV(rouge), Si des caractères particulier apparaissent tel que Ã© sélectionner dans champ formats des caractères l’encodage UTF-8(bleu), afin de ne pas avoir une surcharge du nombre de ligne de votre set de donnée vous pouvez sélectionner “Charger au plus” ce qui vous permettra de choisir le nombre de ligne affichées(jaune). Afin de pouvoir mieux s’y retrouver, il vous est possible de changer le Nom de votre projet (rose). Vous êtes prêt à passer à l’étape suivant en cliquant sur “Créer un projet”(vert)</p>
+
+											<span class="image featured"><img src="images/tuto1.png" alt="" /></span>
+
+											<h4>Suite</h4>
+
+											<p>Nous allons utiliser l’extension Wikidata qui est une base de connaissance collaborative. Nous allons nous focus sur la colonne “name” (bleu)pour réaliser une réconciliation avec justement Wikidata, cliquer sur la flèche bleu juste à côté de “name”>”réconciliation”>”Démarrer la réconciliation” puis sélectionner “wikidata”>”Démarrer la réconciliation”(flèche bleu)
+Le partie gauche correspond aux entités de Wikidata et la partie droite permet d'ajouter des données si l’on souhaite être plus pointilleux. Un encadrement jaune va s’afficher permettant de voir l’avancement de la réconciliation.</p>
+											<span class="image featured"><img src="images/tuto2.png" alt="" /></span>
+
+											<p>Si vous avez de la chance la réconciliation sera déjà faite sinon se sera à vous de choisir la meilleur correspondance ce qui peut être assez barbant dans certain cas.</p>
+
+											<span class="image featured"><img src="images/tuto3.png" alt="" /></span>
+
+											<h4>Aboutissement</h4>
+
+											<p>Après avoir finis cela il vous suffit d’aller en haut à droite de OpenRefine et d’exporter votre projet dans le format que vous souhaitez, pour ma part, je vais l’exporter en xls afin de pouvoir y accéder via excel/sheets</p>
+
+											<center><img src="images/tuto4.png" height="50%" width="50%" alt="" /></center>
+
+											<p>Grâce à l’export en xls je faire des liens entre ces données et d’autre base de donnée afin de les rendres le plus complète possible. Les noms en bleu sont alors cliquable et me redirige vers le wikidata correspondant.</p>
+
+											<center><img src="images/tuto5.png" height="50%" width="50%" alt="" /></center>
+
+
+
+
+										</article>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
